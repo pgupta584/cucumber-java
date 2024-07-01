@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>BDD_Framework</artifactId>
+  <artifactId>Cucumber-Framework</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>BDD_Framework</name>
+  <name>Cucumber-Framework</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -22,31 +22,42 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.2</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId> org.seleniumhq.selenium </groupId>
-      <artifactId> selenium-java </artifactId>
-      <version>4.8.1</version>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.22.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
-      <groupId> info.cukes </groupId>
-      <artifactId> cucumber-java </artifactId>
-      <version>1.2.6</version>
-      <scope> test </scope>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.10.2</version>
+      <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
     <dependency>
-      <groupId> info.cukes </groupId>
-      <artifactId> cucumber-junit </artifactId>
-      <version>1.2.6</version>
-      <scope> test </scope>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.16.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
     <dependency>
-      <groupId>info.cukes</groupId>
+      <groupId>io.cucumber</groupId>
       <artifactId>cucumber-core</artifactId>
-      <version>1.2.6</version>
+      <version>7.16.1</version>
     </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-testng</artifactId>
+      <version>7.18.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
